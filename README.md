@@ -1,7 +1,3 @@
-以下是适合您提供代码的 `README.md` 文件，其中包含中英双语说明：
-
----
-
 # Check Keybox Certificate Revocation Status / 检查 Keybox 证书吊销状态
 
 This script checks XML files in a specified directory to determine if any Keybox certificates have been revoked according to an online revocation list (CRL). If any certificate is found to be revoked, the corresponding XML file is deleted.
