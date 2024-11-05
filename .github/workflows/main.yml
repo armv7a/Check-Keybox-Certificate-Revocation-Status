@@ -33,8 +33,8 @@ jobs:
 
     - name: Update keybox.zip
       run: |
-        git config --local user.name "github-actions[bot]"
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "armv7a"
+        git config --local user.email "neko@outlook.lv"
         git add keybox.zip
         git commit -m "Update keybox.zip"
         git push
