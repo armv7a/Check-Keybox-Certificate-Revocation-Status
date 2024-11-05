@@ -3,7 +3,7 @@ name: Keybox Check Action
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */6 * * *"
 
 jobs:
   check_and_upload:
